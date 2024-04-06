@@ -24,3 +24,8 @@ Route::get('/salut/{name}/{age}',function($nom,$age){
 Route::get('/about',function(){
     return view('apropos');
 });
+
+Route::get('/appelation',function(){
+    return view('comment');
+});
+
